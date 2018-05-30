@@ -1,0 +1,26 @@
+{
+  "name": "unpkg-uri",
+  "version": "0.1.0",
+  "description": "Generates unpkg.com URI from given npm package name",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "author": "Kaz Namba <kaz.namba@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.0.1"
+  }
+}
