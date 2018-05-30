@@ -4,8 +4,8 @@
   "description": "Generates unpkg.com URI from given npm package name",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run lint && jest",
-    "test:watch": "jest --watch",
+    "test": "npm run lint && jest --verbose --ci",
+    "test:watch": "jest --verbose --watch",
     "lint": "eslint --ext .js --ignore-path .gitignore ."
   },
   "repository": "github:tabianco/unpkg-uri",
