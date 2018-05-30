@@ -8,6 +8,7 @@
     "test:watch": "jest --watch",
     "lint": "eslint --ext .js --ignore-path .gitignore ."
   },
+  "repository": "github:tabianco/unpkg-uri",
   "author": "Kaz Namba <kaz.namba@gmail.com>",
   "license": "MIT",
   "engines": {
